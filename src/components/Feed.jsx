@@ -3,7 +3,9 @@ import React from 'react'
 
 const Feed = () => {
   return (
-    <Box bgcolor='skyblue' flex={4} p={2}>Feed</Box>
+    <Box 
+    sx={{backgroundColor:{xs: 'teal', sm:'skyblue'}}}
+    bgcolor='skyblue' flex={4} p={2}>Feed</Box>
   )
 }
 
