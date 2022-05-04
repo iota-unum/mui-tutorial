@@ -11,7 +11,7 @@ function App() {
   return (
     <div className='App'>
       <Box>
-      {/* <Navbar></Navbar> */}
+      <Navbar></Navbar>
         <Stack direction='row' spacing={2} justifyContent='space-between'>
 
       <Sidebar></Sidebar>
